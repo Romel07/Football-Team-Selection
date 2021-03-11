@@ -9,8 +9,12 @@
 
     }
     .bannerStyle{
-        color:antiquewhite;
+        color: rgb(215, 230, 19);
+        font-size: 60px;
+        text-shadow: 5px 5px #ff0000;;
         text-align: center;
         padding-top: 100px;
         height: 100px;
+        margin-top: -400px;
+        
     }

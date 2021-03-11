@@ -22,7 +22,7 @@ const Team = (props) => {
   return (
     <div style={{ textAlign: 'center' }}>
       <img src={strTeamBanner} alt="" />
-      <div style={{ display: 'flex', paddingRight: '200px', marginLeft: '12%', marginRight: '18%', marginTop: '50px' }}>
+      <div style={{ display: 'flex', padding:'20px 200px 40px 50px' , marginLeft: '12%', marginRight: '12 %', marginTop: '30px', backgroundColor:'red'}}>
         <div style={{ textAlign: 'left' }}>
           <h1>{strAlternate} </h1>
           <h4>Founded: {intFormedYear} </h4>
@@ -31,7 +31,7 @@ const Team = (props) => {
           <h4>Gander: {strGender} </h4>
           <h4>YouTube Link: {strYoutube} </h4>
         </div>
-        <div><img style={{ width: '500px', marginLeft: '50%' }} src={genderImage} alt="" /></div>
+        <div><img style={{ width: '500px', marginLeft: '30%', paddingTop: '20px' }} src={genderImage} alt="" /></div>
       </div>
       <div style={{ marginLeft: '12%', marginRight: '12%', marginTop: '50px', textAlign: 'justify' }}>
         <p>{strDescriptionEN}</p><br />

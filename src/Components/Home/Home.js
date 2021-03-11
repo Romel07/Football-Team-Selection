@@ -15,9 +15,12 @@ const Home = () => {
   const history = useHistory();
 
   return (
-    <div style={{ backgroundColor: 'orange' }}>
-      <h1 className='bannerStyle'>English Premier League-2021 </h1>
-      <div style={{ marginLeft: '100px' }}>
+    <div>
+      <span>
+      <img  style={{width:"100%"}} src="https://thedubliner.gr/wp-content/uploads/banner.jpg" alt=""/>
+      <h1 className='bannerStyle'>English Premier League-2021 </h1></span>
+      
+      <div style={{ marginLeft: '100px', marginTop:'220px' }}>
         {teamList.map(team =>
           <div className="teamList">
             <img style={teamLogo} src={team.strTeamBadge} alt="" />
