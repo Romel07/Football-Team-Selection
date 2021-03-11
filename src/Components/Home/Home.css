@@ -1,0 +1,16 @@
+.teamList{
+    border-radius: 12px;
+    text-align: center;
+    float: left;
+    width: 250px;
+    background-color: antiquewhite;
+    padding: 30px;
+    margin: 25px;
+
+    }
+    .bannerStyle{
+        color:antiquewhite;
+        text-align: center;
+        padding-top: 100px;
+        height: 100px;
+    }
