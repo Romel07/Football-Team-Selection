@@ -16,7 +16,7 @@ const Team = (props) => {
       .then(data => setTeamDetails(data.teams[0]))
   }, [idTeam])
 
-  const { strTeamBanner, strAlternate, intFormedYear, strCountry, strGender, strSport, strDescriptionEN, strStadiumDescription, strTwitter, strFacebook, strYoutube } = teamDetails
+  const { strTeamBanner, strAlternate, intFormedYear, strCountry, strGender, strSport, strDescriptionEN, strStadiumDescription, strYoutube } = teamDetails
   let genderImage = ({ strGender } === 'male') ? maleImg : femaleImg;
 
   return (
