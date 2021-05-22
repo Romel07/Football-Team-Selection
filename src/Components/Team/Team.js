@@ -8,7 +8,6 @@ import { } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import Box from '@material-ui/core/Box';
 
-
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 
@@ -53,10 +52,10 @@ const handleTwittwr =()=>{
         <p>{strDescriptionEN}</p><br />
         <p>{strStadiumDescription}</p><br />
       </div>
-      <span className='socilIcon'> <FontAwesomeIcon icon={faTwitter} onClick={()=>handleTwittwr()} />  </span>
-      <span className='socilIcon'> <FontAwesomeIcon icon={faFacebook} onClick={() => { console.log('clicked') }} />  </span>
-      <span className='socilIcon'> <FontAwesomeIcon icon={faFacebook} onClick={() => { window.open(`https://www.youtube.com`) }} /> </span>
-      <span className='socilIcon'> <FontAwesomeIcon icon={faYoutube} onClick={() => { window.open({ strYoutube }) }} /> </span>
+      <a className='socilIcon' href={strYoutube} rel='noreferrer noopener' > <FontAwesomeIcon icon={faTwitter}  />  </a>
+      <a className='socilIcon' href={strYoutube} rel='noreferrer noopener'> <FontAwesomeIcon icon={faFacebook} />  </a>
+      <a className='socilIcon' href={`https://{strYoutube}`} rel='noreferrer noopener'> <FontAwesomeIcon icon={faFacebook}  /></a>
+      <a className='socilIcon' href={`https://{strYoutube}`} rel='noreferrer noopener'> <FontAwesomeIcon icon={faYoutube} /> </a>
     </div>
   );
 };
